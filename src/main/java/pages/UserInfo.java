@@ -15,6 +15,7 @@ public class UserInfo extends BasePage {
     private By lastnameInputField = By.id("last-name");
     private By zipInputField = By.name("postalCode");
     private By continueBtn = By.id("continue");
+    private By exampleLocator = By.id("STEFAN");
 
     public void enteringUserInfo() {
         type(nameInputField, "Irina");

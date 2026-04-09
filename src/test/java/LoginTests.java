@@ -18,5 +18,10 @@ public class LoginTests extends BaseTest {
         loginPage.loginAction("standarsaa", "saucesad");
     }
 
+    @Test
+    public void specialCharsLoginAction() {
+        loginPage.loginAction("#@&", "@#&");
+    }
+
     }
 

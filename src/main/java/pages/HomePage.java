@@ -13,7 +13,7 @@ public class HomePage extends BasePage{
 
     private By addToCartBtn = By.name("add-to-cart-sauce-labs-backpack");
     private By shopingCartIcon = By.id("shopping_cart_container");
-    private By exampleLocator = By.id("STEFAN");
+    private By exampleLocator = By.id("Irina");
 
     public void addToCartAction() {
         click(addToCartBtn);
